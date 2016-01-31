@@ -1,6 +1,6 @@
 # how-to-npm
 
-A module to teach you how to module. This version has the potential advantage of working on Windows if you installed node to the default location (or to any location that has spaces in the path)
+A module to teach you how to module. This version has the advantage of working on Windows if you installed node to the default location (or to any location that has spaces in the path)
 
 ## Huh?
 
