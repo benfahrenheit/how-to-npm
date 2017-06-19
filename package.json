@@ -1,11 +1,14 @@
 {
   "name": "how-to-npm",
-  "version": "1.2.0",
+  "version": "2.4.3",
   "description": "A module to teach you how to module.",
   "bin": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/how-to-npm"
+    "url": "https://github.com/workshopper/how-to-npm"
+  },
+  "scripts": {
+    "test": "standard"
   },
   "keywords": [
     "workshop",
@@ -17,10 +20,10 @@
   "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/npm/how-to-npm/issues"
+    "url": "https://github.com/workshopper/how-to-npm/issues"
   },
   "bundleDependencies": [
-    "adventure",
+    "workshopper-adventure",
     "concat-stream",
     "mkdirp",
     "rimraf",
@@ -28,12 +31,16 @@
     "which"
   ],
   "dependencies": {
-    "adventure": "^2.10.0",
     "concat-stream": "^1.4.7",
     "mkdirp": "^0.5.0",
     "rimraf": "^2.2.8",
     "semver": "^4.2.0",
-    "which": "^1.0.8"
+    "update-notifier": "^1.0.3",
+    "which": "^1.0.8",
+    "workshopper-adventure": "^5.0.3"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "devDependencies": {
+    "standard": "^7.1.2"
+  }
 }
